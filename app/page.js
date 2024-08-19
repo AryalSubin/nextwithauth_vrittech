@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex  w-full h-full items-center justify-center  flex-1 ">
         <div className="w-full h-fit flex flex-col gap-5  py-20 px-20 ">
           <h1 className="text-[4vw] leading-[3.5vw] font-black ">
-            This is the most loved Home Page
+            Most loved website ever created
           </h1>
           <p>
             we can check the protected routes by using below buttons and try to
