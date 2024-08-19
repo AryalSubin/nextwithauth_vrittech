@@ -1,11 +1,10 @@
-// components/withAuth.js
 "use client";
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
-// import Image from "next/image";
-// import loadingImg from "@/public/loading.gif";
+import Image from "next/image";
+import loadingImg from "@/public/loading.gif";
 
 const withAuth = (WrappedComponent) => {
   return (props) => {
@@ -24,7 +23,7 @@ const withAuth = (WrappedComponent) => {
     if (loading) {
       return (
         <div className="h-screen w-full flex justify-center items-center ">
-          {/* <Image src={loadingImg} alt="loading..." /> */}
+          <Image src={loadingImg} alt="loading..." />
         </div>
       );
     }
